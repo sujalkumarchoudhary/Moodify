@@ -1,0 +1,40 @@
+# ─── Dependencies ─────────────────────────────────────────────────────────────
+node_modules/
+
+# ─── Environment variables (NEVER commit secrets) ─────────────────────────────
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
+# .env.example is safe to commit (no real secrets)
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ─── Uploaded files (if you ever add local disk storage) ──────────────────────
+uploads/
+tmp/
+
+# ─── Editor directories ───────────────────────────────────────────────────────
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# ─── OS files ─────────────────────────────────────────────────────────────────
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ─── Build output ─────────────────────────────────────────────────────────────
+dist/
+build/
